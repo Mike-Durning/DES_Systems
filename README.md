@@ -26,8 +26,11 @@ This folder contains:
 
 
 | **Command Purpose**                                | **Command**                                | **Explanation**                                                                       |
-| -------------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------- |
-| 1. Shut down containers **keeping volumes**        | `docker-compose down`                      | Stops and removes containers and networks but **keeps volumes intact** (no `-v` flag) |
+|---------------------------------------------------|--------------------------------------------|---------------------------------------------------------------------------------------|
+| 1. Start containers in detached mode               | `docker-compose up -d`                     | Starts all services defined in the compose file, running containers in the background |
+| 2. Shut down containers **keeping volumes**       | `docker-compose down`                      | Stops and removes containers and networks but **keeps volumes intact** (no `-v` flag) |
 | 3. Manually execute backup script inside container | `docker exec wp_backup /scripts/backup.sh` | Runs the backup script inside the running backup container to create backups          |
+
+---
 
 
