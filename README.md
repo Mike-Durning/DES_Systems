@@ -15,7 +15,7 @@ This project runs a WordPress site using Docker with the following services:
 
 Backups are saved on your Windows host at:
 
-C:\Users\Micha\Desktop\alt0160\DES_Systems\des_systems_wp_backup
+C:\...\DES_Systems\des_systems_wp_backup
 
 
 This folder contains:
