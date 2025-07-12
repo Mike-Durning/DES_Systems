@@ -13,8 +13,7 @@ This project runs a WordPress site using Docker with the following services:
 
 ## Backup Location
 
-Backups are saved on your Windows host at:
-
+Backups are saved at:
 C:\...\DES_Systems\des_systems_wp_backup
 
 
